@@ -12,8 +12,8 @@ background: linear-gradient(90deg, rgba(195,69,11,1) 2%, rgba(0,168,255,1) 100%)
 
 #container{
     display: flex;
-    width: 1000px;
-    height: 501px;
+     width: 60vw;
+    height: 80vh;
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
@@ -91,4 +91,27 @@ color: #9AABD8;
 
 h3{
     color: greenyellow;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+    #container{
+       
+        width: 80vw;
+        height: 60vh;
+    }
+
+    .score-area{
+        width: 110px;
+        height: 110px;
+        font-size: 50px;
+    }
+    h1{
+      
+        font-size: 25px;
+  }
+  .btn-styles{
+    width: 30px;
+    height: 30px;
+  }
 }
