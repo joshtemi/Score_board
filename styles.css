@@ -7,7 +7,7 @@
 body{
     margin-top: 10vh;
     /* background-color: green; */
-    background: linear-gradient(90deg, rgba(11,195,48,1) 2%, rgba(19,223,186,1) 44%, rgba(19,198,223,1) 64%, rgba(0,168,255,1) 100%);
+background: linear-gradient(90deg, rgba(195,69,11,1) 2%, rgba(0,168,255,1) 100%);
 }
 
 #container{
