@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,400..700,0..1,-50..200" />
+    <link href="styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard</title>
+</head>
+<body>
+  <div id="container">
+    <div id="home" >
+        <h1>HOME</h1>
+        <h3 id="home-win"></h3>
+        <h2 id="home-score"  class="score-area">0</h2>
+        <button id="plus1-home" class="btn-styles" onclick="plus1()">+1</button>
+        <button id="plus2-home" class="btn-styles" onclick="plus2()">+2</button>
+        <button id="plus3-home" class="btn-styles" onclick="plus3()">+3</button>
+    </div>
+    <div>
+        <H3 id="draw-mark"></H3>
+        <!-- <a id="refresh-btn">Refresh</a> -->
+        <button class="material-symbols-outlined"  onclick="refresh()" > refresh </button>
+    </div>
+   
+    <div id="away" >
+        <h1>AWAY</h1>
+        <h3 id="away-win"></h3>
+        <h2 id="away-score" class="score-area">0</h2>
+        <button id="plus1-away" class="btn-styles" onclick="plus1away()">+1</button>
+        <button id="plus2-away" class="btn-styles" onclick="plus2away()">+2</button>
+        <button id="plus3-away" class="btn-styles" onclick="plus3away()">+3</button>
+    </div>
+  </div>
+    <script src="index.js"></script>
+</body>
+</html>
