@@ -7,19 +7,22 @@
 body{
     margin-top: 10vh;
     /* background-color: green; */
-background: linear-gradient(90deg, rgba(195,69,11,1) 2%, rgba(0,168,255,1) 100%);
+
+background: linear-gradient(90deg, rgba(11,195,48,1) 2%, rgba(19,223,186,1) 44%, rgba(19,198,223,1) 64%, rgba(0,168,255,1) 100%);
+
+
 }
 
 #container{
     display: flex;
-     width: 60vw;
+
+    width: 60vw;
+
     height: 80vh;
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
-    background: #111827;
-    /* background: rgb(11,195,48); */
-
+    background: #4c4f57;
     border-radius: 10px;
     text-align: center;
 }
@@ -92,6 +95,7 @@ color: #9AABD8;
 h3{
     color: greenyellow;
 }
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
 
@@ -114,4 +118,7 @@ h3{
     width: 30px;
     height: 30px;
   }
+
 }
+=======
+
